@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	width: 100%;
+	height: 100%;
+/*	background: url(../IMG/HTML/Dark.png);*/
+}.container{
+	width: 1440px;
+/*
+	height: 3219px;
+	background: #E1393C;
+*/
+}
+.header-main{
+	width: 100%;
+	height: 100px;
+	background: #EBEBEB;
+/*	position: absolute;*/
+	z-index: 10;
+	background: rbga(0,0,0,0.44);color: rbg(255,255,255,1.00);
+}
+.logo{
+	width: 20%;
+	height: 100px;
+/*	background: #F46265;*/
+}
+.logo a img{
+	width: 100%;
+}
+.social-icon{
+	width: 250px;
+	height: 100px;
+/*	background: #6375CB;*/
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	}
+.hidden{
+	width: 100%;
+	height: 988px;
+	background: url(../IMG/Bg2-01.png);
+}
+.graphic{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 20px;
+	animation: graphic 3s infinite linear alternate;
+}
+@keyframes graphic{
+	from{
+		transform: translate(20px)
+	}
+	to{
+		transform: translate(20px,-50px)
+	}
+}
+.hidden-2{
+	width: 100%;
+	height: 950px;
+    background: url(../IMG/HTML/Background.png) fixed;
+}
+.headline{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 100px;
+}
+.i-1{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 150px
+}
+.hidden-3{
+	width: 100%;
+	height: 950px;
+    background: url(../IMG/HTML/Background.png) fixed;
+}
+.i-2{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 150px;
+}
+.hidden-4{
+	width: 100%;
+	height: 950px;
+    background: url(../IMG/HTML/Background.png) fixed;
+}
+.i-3{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 150px;
+}
+.hidden-5{
+	width: 100%;
+	height: 1100px;
+    background: url(../IMG/HTML/Background.png) fixed;
+}
+.i-4{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 70px;
+}
+.vector{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 100px;
+}
+.hidden-6{
+	width: 100%;
+	height: 950px;
+    background: url(../IMG/HTML/Background.png) fixed;
+}
+.headline-2{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 100px;
+}
+.P-1{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 120px;
+}
+.hidden-7{
+	width: 100%;
+	height: 950px;
+    background: url(../IMG/HTML/Background.png) fixed;
+}
+.P-2{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 120px;
+}
+.hidden-8{
+	width: 100%;
+	height: 950px;
+    background: url(../IMG/HTML/Background.png) fixed;
+}
+.P-3{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 120px;
+}
+.hidden-9{
+	width: 100%;
+	height: 1000px;
+    background: url(../IMG/HTML/Background.png) fixed;
+}
+.hidden-10{
+	width: 100%;
+	height: 1000px;
+    background: url(../IMG/HTML/Background.png) fixed;
+}
+.headline-3{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 130px;
+}
+.bg{
+	width: 100%;
+	height: 537px;
+	background: #FCEEE0;
+	position: relative;
+	top: 250px
+}
+.paper{
+	position: relative;
+	top: -1290px
+}
+.paper img{
+	width: 100%;
+}
+.paper-2{
+	position: relative;
+	top: -850px
+}
+.paper-2 img{
+	width: 100%;
+}
+.mixology{
+	display: flex;
+    justify-content: center;
+	position: relative;
+	top: -480px
+}
+.ui-1{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 100px
+}
+.hidden-11{
+	width: 100%;
+	height: 1000px;
+    background: url(../IMG/HTML/Background.png) fixed;
+}
+.ui-2{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 100px
+}
+.hidden-12{
+	width: 100%;
+	height: 1000px;
+    background: url(../IMG/HTML/Background.png) fixed;
+}
+.ui-2{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 100px
+}
+.ui-3{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 100px
+}
+.hidden-13{
+	width: 100%;
+	height: 1000px;
+    background: url(../IMG/HTML/Background.png) fixed;
+}
+.ui-4{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 100px
+}
+.hidden-14{
+	width: 100%;
+	height: 1000px;
+    background: url(../IMG/HTML/Background.png) fixed;
+}
+.ui-5{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 30px
+}
+.hidden-15{
+	width: 100%;
+	height: 1100px;
+    background: url(../IMG/HTML/Background.png) fixed;
+}
+.ui-6{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 10px
+}
+.hidden-16{
+	width: 100%;
+	height: 10px;
+    background: url(../IMG/HTML/Background.png) fixed;
+}
+.truoc{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: -120px;
+	animation: truoc 2s infinite linear alternate;
+}
+@keyframes truoc{
+	from{
+		transform: translate(50px)
+	}
+	to{
+		transform: translate(-50px)
+	}
+}
+
+.only-nhat{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: 10px;
+}
+.footer{
+	width: 100%;
+	height: 206px;
+	background: url( ../IMG/HTML/Dark.png);
+	position: relative
+}
